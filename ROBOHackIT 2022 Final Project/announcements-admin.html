@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Announcements</title>
+	<link rel="stylesheet" href="style2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+</head>
+<body onload="intialize_announcements()">
+
+    <nav>
+        <img src="img/bib-logo.png" width="50" height="75">
+        
+        <img src="img/lhs_logo.gif" width="80" height="80">
+        <ul>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a onclick="checklogins()">Announcements</a></li>
+            <li><a href="calendar.html">Calendar</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+    <h1 style="text-align:center; padding:20px;">Announcements</h1>
+    <br>
+    <div id="announcements-container">
+        
+        <div id = "announcements-posts-admin">
+            <table id="announcement-posts-table">
+
+            </table>
+
+        </div>
+        <div id="announcements-make-posts">
+            <h2 style="padding-bottom:15px;">Make a Post</h2>
+            <form id = 'make-post-form'>
+                Name: <input name="name" type="text"/><br>
+                Content: <input name="content" type="text" size="35"/>
+    
+            </form>
+            <button onclick="submitpost()">Submit</button>
+            <br>
+            <button style="margin-top:15px;" onclick="clear_announcements()">Clear Announcements</button>
+        </div>
+
+    </div>
+   
+    <div class="footer" style="margin-top:15%">
+        <h3>Lambert - Blessings in a Backpack</h3>
+        <p>Website created to raise awareness on world issues like poverty and provide people with the resources and encouragement to donate.</p>
+        <p>Created by Hiba Altaf, Siddharth Yamujala, Abhinav Yamujala, and Shivansh Sharma.</p>
+    </div>
+	
+</body>
+</html>

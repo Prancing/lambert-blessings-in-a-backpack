@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway',serif;
+}
+/*HEADER*/
+#header nav{
+    position: relative;
+    padding: 10px 10px;
+    background-color: #196CB2;
+}
+#header nav ul{
+    position: absolute;
+    right: 10%;
+    top: 55%;
+    transform:translate(0,-50%);
+}
+#header nav img{
+    padding: 10px;
+}
+#header nav li{
+    float: left;
+    font-size: 20px;
+    margin: 0 30px;
+    list-style: none;
+}
+#header a:hover{
+    color: red;
+    border-bottom: 2px solid lightgrey;
+    
+}
+#header nav a{
+    text-decoration: none;
+    color: white;
+}
+#header .header-text{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    font-size: 50px;
+}
+#header .header-text h2{
+    font-size: 45px;
+}
+#header .header-text h1{
+    color: skyblue;
+}
+#header .header-text p{
+    font-size: 25px;
+}
+#header{
+    background-image: linear-gradient(rgba(20,0,0,.6),rgba(0,0,0,.6)),url(img/homepage-img.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+/*OUR MISSION*/
+#mission{
+    background-color: #caf0f8;
+    height: 100vh;
+    width: 100vw;
+}
+#mission .squareone{ 
+    position: relative;
+    width: 40%; 
+    height: 40%; 
+    background-color: #00b4d8;
+    top: 2%;
+    left: 5%;
+}
+#mission .squareone img{
+    position: relative;
+    top: 3%;
+    left: 3%;
+}
+#mission .squaretwo{
+    position: relative;
+    width: 35%;
+    height: 35%;
+    background-color: #0077b6;
+    top: -2%;
+    left: 20%;
+}
+#mission .squaretwo img{
+    position: relative;
+    top: 3%;
+    left: 3%;
+}
+#mission h1{
+    color: white;
+    position: relative;
+    left: 60%;
+    top: 8%;
+    width: 200px;
+    border-left: 5px solid lightgrey;
+    padding-left: 3px;
+}
+#mission p{
+    text-align: left;
+    position: relative;
+    bottom: 65%;
+    left: 62%;
+    width: 400px;
+    color: darkslateblue;
+    font-size: 25px;
+}
+#mission h2{
+    color: white;
+    position: relative;
+    left: 60%;
+    bottom: 60%;
+    width: 200px;
+    border-left: 5px solid lightgrey;
+    padding-left: 3px;
+}
+#mission ul{
+    text-align: left;
+    position: relative;
+    bottom: 58%;
+    left: 63.5%;
+    width: 400px;
+    color: darkslateblue;
+    font-size: 25px;
+}
+/*STATS*/
+#stats{
+    text-align: center;
+    background-attachment: fixed;
+    height: 30vh;
+    background-image: linear-gradient(rgba(0,0,50,.6),rgba(0,0,50,.6)),url(img/wood-background.jpg);
+    background-size: cover;
+    color:white;
+}
+#stats .stat-box p{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+#stats .stat-box{
+    position: relative;
+    left: 10%;
+    top: 10%;
+    width: 200px;
+    height: 100px;
+    background-color: cadetblue;
+    float: left;
+    margin: 50px 100px;
+}
+#stats .stat-box i{
+    font-size: 40px;
+}
+.footer{
+    text-align:center;
+    color:#f2f2f2;
+    padding: 40px 20px 40px 20px;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #03befc;
+}
+.footer p{
+    padding-top:10px;
+}
